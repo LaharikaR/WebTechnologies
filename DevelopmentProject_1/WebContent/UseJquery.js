@@ -22,5 +22,9 @@ document.location.href="Experience.html";
 $( "#index_contact" ).click(function() {
 	document.location.href="Contact.html";
 	});
+/*Function to open Contact page */
+$( "#index_Thank" ).click(function() {
+	document.location.href="Jquery_scenarios.html";
+	});
 
 });
