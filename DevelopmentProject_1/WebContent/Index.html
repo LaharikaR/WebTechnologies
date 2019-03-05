@@ -8,11 +8,12 @@
 		<script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 	<body>
 		<!-- Navigation -->
+		<script src="UseJquery.js"></script>
 		<nav id="index_nav" class="topnav">
-		    <a id="index_summary" href="summary.html" onclick="summary.html" class="summary">Summary</a>
-		    <a id="index_education" href="Education.html" onclick="Education.html" class="Education">Education</a>
-		    <a id="index_experience" href="Experience.html" onclick="Experience.html" class="Projects">Experience</a>
-		    <a id="index_contact" href="Contact.html" onclick="Contact.html" class="Contact">Contact</a>
+		    <a id="index_summary" class="summary">Summary</a>
+		    <a id="index_education" class="Education">Education</a>
+		    <a id="index_experience" class="Projects">Experience</a>
+		    <a id="index_contact"  class="Contact">Contact</a>
 		</nav>
 		<!-- on clicking resume my name would display by using proper id and javascript -->
 		<p id="index_myname">Navigate to get more details and click below to download pdf version of the resume</p>
@@ -33,6 +34,7 @@
 		});
 		</script>
 	<div>
+	<!-- Click to know my name button -->
 		<button id="index_button" class=" button"  onclick="myFunction()">Click to know whose resume it is</button>
 			<p id="myname" style="font-size:18px;"></p>
 			<script src="Dev_javascript.js"></script>
@@ -41,6 +43,7 @@
 	<br></br>
 	<b>E-mail : </b><a id="index_email"style="text-align:center" href="mailto:laharika.ravula1@marist.edu">laharika.ravula1@marist.edu</a><br>
 	<b id="index_mobile">Mobile : </b>+1 (845)-670-2889<br><br>
+	
 
 </body>
 </html>
