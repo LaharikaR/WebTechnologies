@@ -4,6 +4,9 @@
 <meta charset="ISO-8859-1">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="StyleSheetDev1.css">
+<script src="//code.jquery.com/jquery-1.12.4.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
 <body>
 
 <!-- Navigation -->
@@ -20,10 +23,22 @@
 		<img src="https://lh3.googleusercontent.com/QF6v4mOf9tTL4RGZKIARX18zQbptwaPp0Mfhrufu1i7H0-srAThlLUCsUPdGPyu2rzI27FTgY9FEpwsC9yOGyERLH__VQf99wsooC-f_D2uu1mYKTF4a6MreEH6s-VyZeuoL1dq9cw=w2400" style="width:50%;height:50%;">
 	</div> 
 </div>
-
-<button id="index_button" class=" button"  onclick="myFunction()">Resume</button>
-<p id="myname"></p>
-<script src="Dev_javascript.js"></script>
+<div id="index_drop">Drop here</div>
+<div id="index_drag">Drag me</div>
+ 
+<script>
+$( "#index_drag" ).draggable();
+$( "#index_drop" ).droppable({
+  drop: function() {
+    alert( "Now you can download resume" );
+  }
+});
+</script>
+<div>
+	<button id="index_button" class=" button"  onclick="myFunction()">Resume</button>
+	<p id="myname"></p>
+		<script src="Dev_javascript.js"></script>
+</div>
 <a href="https://drive.google.com/open?id=15XCplAeK-lCV0PoNkiP6cySRaE8Hg7JH" download>
 Click to download</a>
 <br></br>
