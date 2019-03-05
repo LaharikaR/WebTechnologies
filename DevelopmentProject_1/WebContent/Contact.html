@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<link rel="stylesheet" href="StyleSheetDev1.css">
-<title>Contact Details</title>
+		<meta charset="ISO-8859-1">
+		<link rel="stylesheet" href="StyleSheetDev1.css">
+		<script src="//code.jquery.com/jquery-1.12.4.js"></script>
+		<script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+		<title>Contact Details</title>
 </head>
 <div id="index_nav" class="topnav">
     <a id="index_summary" href="summary.html" onclick="summary.html" class="summary">Summary</a>
@@ -15,5 +17,18 @@
 <h2 id="contact_des"class="info">I can be contacted through E-mail or Phone...</h2>
 		<b>E-mail : </b><a id="index_email"style="text-align:center" href="mailto:laharika.ravula1@marist.edu">laharika.ravula1@marist.edu</a><br>
 	<p id="contact_phone" class="phone"> <b>Mobile : </b>+1(845)-670-2889</p>
+	<div>
+	<script> 
+		$(document).ready(function(){
+  		$("button").click(function(){
+    	$("div").animate({left: '250px'});
+  			});
+		});
+	</script>
+	</div>
+	<div>
+	<button>The box below moves from left when clicked on me</button> </div>
+	<div style="background:white;height:20px;width:20px;position:absolute;"></div>
+	
 </div>
 </html>
