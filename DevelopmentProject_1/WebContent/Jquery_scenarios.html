@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Jquery</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="StyleSheetDev1.css">
+<script src="//code.jquery.com/jquery-1.12.4.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<div>
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $("p").html("<b> Thank You!</b>");
+  });
+});
+</script>
+</div>
+</head>
+<body>
+<!-- Navigation -->
+		<script src="UseJquery.js"></script>
+		<nav id="index_nav" class="topnav">
+		    <a id="index_summary" class="summary">Summary</a>
+		    <a id="index_education" class="Education">Education</a>
+		    <a id="index_experience" class="Projects">Experience</a>
+		    <a id="index_contact"  class="Contact">Contact</a>
+		    <a id="index_Thank"  class="Thank">Thank you</a>
+		</nav>
+<button>Click here</button>
+
+<p>You have come to an end of this website</p>
+
+</body>
+</html>
