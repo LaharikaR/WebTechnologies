@@ -1,0 +1,45 @@
+@charset "ISO-8859-1";
+/*style for Top Navigation bar*/
+.topnav {
+  overflow: hidden;
+  background-color: black;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+/*Background color of the body*/
+body{
+	background-color: #5FAE57;
+	text-align: center;
+}
+
+/*style for button like color of the button*/
+.button{
+	background-color: white;
+	}
+
+/*style for content in experience*/
+p.Exp_content{
+	text-align: left;
+	font-size: 16px;
+	
+}
+
+/*style for heading in experience*/
+.Exp_heading{
+	font-weight: bold;
+	text-align: center;
+}
+
+/*style for columns and row like borders*/
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
