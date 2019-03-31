@@ -1,0 +1,13 @@
+
+{
+      "ContactReason": [{
+          "id": 1,
+          "name": "Job Offer"
+      }, {
+          "id": 2,
+          "name": "Gather Information"
+      }, {
+          "id": 3,
+          "name": "Client List information"
+      }]
+  }
