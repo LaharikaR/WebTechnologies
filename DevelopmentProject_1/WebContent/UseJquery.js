@@ -4,6 +4,10 @@
 
 $(document).ready(function(){
 
+	
+$( "#index_home" ).click(function() {
+document.location.href="Home.html";
+});
 /*Function to open Summary page*/
 $( "#index_summary" ).click(function() {
 document.location.href="summary.html";

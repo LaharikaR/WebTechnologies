@@ -6,18 +6,19 @@
 		<link rel="stylesheet" href="StyleSheetDev1.css">
 		<script src="//code.jquery.com/jquery-1.12.4.js"></script>
 		<script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-		<title>Index page</title>
+		<title>Home Page</title>
 </head>
 	<body>
 		<!-- Navigation -->
 		<script src="UseJquery.js"></script>
-		<nav id="index_nav" class="topnav">
-		    <a id="index_summary" class="summary">Summary</a>
-		    <a id="index_education" class="Education">Education</a>
-		    <a id="index_experience" class="Projects">Experience</a>
-		    <a id="index_contact"  class="Contact">Contact</a>
-		    <a id="index_Thank"  class="Thank">Thank you</a>
-		</nav>
+		<div id="index_nav" class="topnav">
+			<a id="index_home" href="Index.html" onclick="Index.html" class="home">Home</a>
+    		<a id="index_summary" href="summary.html" onclick="summary.html" class="summary">Summary</a>
+    		<a id="index_education" href="Education.html" onclick="Education.html" class="Education">Education</a>
+    		<a id="index_experience" href="Experience.html" onclick="Experience.html" class="Projects">Experience</a>
+    		<a id="index_contact" href="Contact.html" onclick="Contact.html" class="Contact">Contact</a>
+    		<a id="index_Thank" href="Jquery_scenarios.html" onclick="Jquery_scenarios.html" class="Thank">Thank you</a>
+		</div>
 		<!-- on clicking resume my name would display by using proper id and javascript -->
 		<p id="index_myname">Navigate to get more details and click below to download pdf version of the resume</p>
 		<div style="width: 40%; margin-left: 4%; float: left;">
