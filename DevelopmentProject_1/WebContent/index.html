@@ -9,7 +9,7 @@
 		<title>Home Page</title>
 </head>
 	<body>
-		<!-- Navigation -->
+		<!-- Navigation Bar-->
 		<script src="UseJquery.js"></script>
 		<div id="index_nav" class="topnav">
 			<a id="index_home" href="index.html" onclick="index.html" class="home">Home</a>
@@ -18,7 +18,7 @@
     		<a id="index_experience" href="Experience.html" onclick="Experience.html" class="Projects">Experience</a>
     		<a id="index_Contact" href="Contact.html" onclick="Contact.html" class="Contact">Contact Form</a>
 		</div>
-		<!-- on clicking resume my name would display by using proper id and javascript -->
+		<!-- On clicking on resume my name would display by using proper id and javascript -->
 		<p id="index_myname">Navigate to get more details and to get downloadable version of my resume drag and drop</p>
 		<div style="width: 40%; margin-left: 4%; float: left;">
 			<div class="img1">
@@ -34,10 +34,9 @@
 	<br>
 	<b>E-mail : </b><a id="index_email" style="text-align:center" href="mailto:laharika.ravula1@marist.edu">laharika.ravula1@marist.edu</a><br>
 	<b id="index_mobile">Mobile : </b>+1 (845)-670-2889<br><br>
-	
+<!--Drag and drop for getting a downloadable version of my resume-->
 <div id="index_drop">Drop the Drag me here to get downloadable pdf</div>
 		<div id="index_drag">Drag me</div>
- <!-- Script for drag and drop -->
 		<script>
 		$( "#index_drag" ).draggable();
 		$( "#index_drop" ).droppable({

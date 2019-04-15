@@ -4,7 +4,7 @@
 
 $(document).ready(function(){
 
-	
+	/*Function to open Home page*/	
 $( "#index_home" ).click(function() {
 document.location.href="index.html";
 });
@@ -22,7 +22,7 @@ document.location.href="Education.html";
 $( "#index_experience" ).click(function() {
 document.location.href="Experience.html";
 });
-/*Function to open Contact page */
+/*Function to open Contact form */
 $( "#index_contact" ).click(function() {
 	document.location.href="Contact.html";
 	});
