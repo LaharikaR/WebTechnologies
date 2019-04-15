@@ -5,9 +5,9 @@
           "name": "Job Offer"
       }, {
           "id": 2,
-          "name": "Gather Information"
+          "name": "Mentoring"
       }, {
           "id": 3,
-          "name": "Client List information"
+          "name": "Other"
       }]
   }
