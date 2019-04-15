@@ -15,7 +15,8 @@
 }
 /*Background color of the body*/
 body{
-	background-color: #5FAE57;
+	background-image: url("http://wellworthsurgical.com/wp-content/uploads/parser/light-background-1.jpg");
+	background-size: cover;
 	text-align: center;
 }
 
