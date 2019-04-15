@@ -6,7 +6,7 @@ $(document).ready(function(){
 
 	
 $( "#index_home" ).click(function() {
-document.location.href="Home.html";
+document.location.href="index.html";
 });
 /*Function to open Summary page*/
 $( "#index_summary" ).click(function() {
@@ -25,10 +25,6 @@ document.location.href="Experience.html";
 /*Function to open Contact page */
 $( "#index_contact" ).click(function() {
 	document.location.href="Contact.html";
-	});
-/*Function to open Contact page */
-$( "#index_Thank" ).click(function() {
-	document.location.href="Jquery_scenarios.html";
 	});
 
 });
