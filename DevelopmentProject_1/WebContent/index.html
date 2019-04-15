@@ -12,21 +12,30 @@
 		<!-- Navigation -->
 		<script src="UseJquery.js"></script>
 		<div id="index_nav" class="topnav">
-			<a id="index_home" href="Index.html" onclick="Index.html" class="home">Home</a>
+			<a id="index_home" href="index.html" onclick="index.html" class="home">Home</a>
     		<a id="index_summary" href="summary.html" onclick="summary.html" class="summary">Summary</a>
     		<a id="index_education" href="Education.html" onclick="Education.html" class="Education">Education</a>
     		<a id="index_experience" href="Experience.html" onclick="Experience.html" class="Projects">Experience</a>
-    		<a id="index_contact" href="Contact.html" onclick="Contact.html" class="Contact">Contact</a>
-    		<a id="index_Thank" href="Jquery_scenarios.html" onclick="Jquery_scenarios.html" class="Thank">Thank you</a>
+    		<a id="index_Contact" href="Contact.html" onclick="Contact.html" class="Contact">Contact Form</a>
 		</div>
 		<!-- on clicking resume my name would display by using proper id and javascript -->
-		<p id="index_myname">Navigate to get more details and click below to download pdf version of the resume</p>
+		<p id="index_myname">Navigate to get more details and to get downloadable version of my resume drag and drop</p>
 		<div style="width: 40%; margin-left: 4%; float: left;">
 			<div class="img1">
 				<img src="https://lh3.googleusercontent.com/QF6v4mOf9tTL4RGZKIARX18zQbptwaPp0Mfhrufu1i7H0-srAThlLUCsUPdGPyu2rzI27FTgY9FEpwsC9yOGyERLH__VQf99wsooC-f_D2uu1mYKTF4a6MreEH6s-VyZeuoL1dq9cw=w2400" style="width:50%;height:50%;" alt="Laharika Ravula">
 			</div> 
 		</div>
-		<div id="index_drop">Drop the Drag me here to get downloadable pdf</div>
+	<div>
+	<!-- Click to know my name button -->
+		<button id="index_button" class=" button"  onclick="myFunction()">Click to know whose resume it is</button>
+			<p id="myname" style="font-size:18px;"></p>
+			<script src="Dev_javascript.js"></script>
+	</div>
+	<br>
+	<b>E-mail : </b><a id="index_email" style="text-align:center" href="mailto:laharika.ravula1@marist.edu">laharika.ravula1@marist.edu</a><br>
+	<b id="index_mobile">Mobile : </b>+1 (845)-670-2889<br><br>
+	
+<div id="index_drop">Drop the Drag me here to get downloadable pdf</div>
 		<div id="index_drag">Drag me</div>
  <!-- Script for drag and drop -->
 		<script>
@@ -37,17 +46,5 @@
 		  }
 		});
 		</script>
-	<div>
-	<!-- Click to know my name button -->
-		<button id="index_button" class=" button"  onclick="myFunction()">Click to know whose resume it is</button>
-			<p id="myname" style="font-size:18px;"></p>
-			<script src="Dev_javascript.js"></script>
-	</div>
-	<a href="https://drive.google.com/open?id=15XCplAeK-lCV0PoNkiP6cySRaE8Hg7JH" download>Click to download</a>
-	<br>
-	<b>E-mail : </b><a id="index_email" style="text-align:center" href="mailto:laharika.ravula1@marist.edu">laharika.ravula1@marist.edu</a><br>
-	<b id="index_mobile">Mobile : </b>+1 (845)-670-2889<br><br>
-	
-
 </body>
 </html>
