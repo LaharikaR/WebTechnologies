@@ -12,14 +12,9 @@
     <link rel="shortcut icon" href="favicon.ico">
     <link rel="apple-touch-icon" href="icon.png" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-
 	<link href="css/bootstrap.css" rel="stylesheet">
-    
     <link rel="stylesheet" href="StyleSheetDev1.css">
     <link href="css/main.css" rel="stylesheet">
-    
-    
-
     <link href='//fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
     <link href='//fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
 
@@ -33,21 +28,6 @@
   ga('send', 'pageview');
 
 </script>
-
-<script>
-function validateEmail(emailField){
-        var reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
-
-        if (reg.test(emailField.value) == false) 
-        {
-            alert('Invalid Email Address');
-            return false;
-        }
-
-        return true;
-}
-</script>
-
 
 </head>
 
@@ -71,6 +51,7 @@ function validateEmail(emailField){
   <br><br>
   <b>EmailID:</b><br>
   <input type="text" name="EmailID" value="" required="required" placeholder="Enter EmailID" onblur="validateEmail(this);">
+  <script src="Dev_javascript.js"></script>
   <br><br>
   <b>Message:</b><br>
   <textarea cols="57" rows="6" name="Message" placeholder="Message" required="required"></textarea>
